@@ -6,7 +6,7 @@ class UserPreferences {
         'https://raw.githubusercontent.com/ZeroRyo/english_today/test-add/screenshots/avatar.jpg',
     name: 'Ha Huy Hung',
     email: 'hhhungdesigner@gmail.com',
-    about:'📘 Currently studying on TDTU                                        💻 Working on ... Technology                    ✍️ Making some projects using JavaScript, PHP,...                                         📂 Node.js, React.js, TensorFlow and Laravel',
+    about:'📘 Currently studying on TDTU                                        💻 Working on ... Technology                                    ✍️ Making some projects using JavaScript, PHP,...                                         📂 Node.js, React.js, TensorFlow and Laravel',
     isDarkMode: false,
   );
 }
