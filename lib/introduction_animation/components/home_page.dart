@@ -19,7 +19,6 @@ import 'package:Learn_English_Today/invite_friend_screen.dart';
 import 'package:Learn_English_Today/quoctes_page.dart';
 // import 'package:Learn_English_Today/quizScreen/menuScreen.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:Learn_English_Today/quizz/second_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -412,7 +411,7 @@ class _HomePageState extends State<HomePage> {
                 child: InkWell(
                   onTap: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (_) => SecondPage()));
+                        MaterialPageRoute(builder: (_) => ProfilePage()));
                   },
                   child: Container(
                     height: MediaQuery.of(context).size.height * 0.08,
